@@ -8,14 +8,16 @@
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <meta name="author" content="Ericka Bermudez">
 
-     <!-- bootstrap -->
+     <!-- imports -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
      <link rel="stylesheet" type="text/css" href="styles.css">
      <!-- fonts -->
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
      <!--[if lt IE 9]>
        <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,17 +25,40 @@
  </head>
 
  <body>
-   <div class="full-image-background">
-     <div class="container">
-       <div class="quote color-white font-playfair">
-         Stand for something or
-         <br>you will fall for anything.
+   <div id="main" class="main-content">
+     <div class="full-image-background">
+       <div class="container">
+         <div class="quote color-white font-playfair">
+           Stand for something or
+           <br>you will fall for anything.
+         </div>
+         <div id ="title" class="small-text text-shadow text-lowercase font-playfair color-white">
+           a <span class="rosa">Rosa</span> Parks tribute
+         </div>
+         <div class="go-to-down d-flex justify-content-center">
+           <a href="#section2"><i class="fas fa-chevron-down arrow-down"></i></a>
+         </div>
        </div>
-       <div class="small-text text-shadow text-lowercase font-playfair color-white">
-         a Rosa Parks tribute by Ericka Bermudez.
+     </div>
+     <div class="info-container" id="section2">
+       <div class="info-image"></div>
+         <div class="info-content">
+           <div class="h1 section-title font-weight-bold d-flex justify-content-end">
+           .  <span class="rosa">rosa</span> parks
+           </div>
+           <div class="section-content text-justify">
+             On December 1, 1955, in Montgomery, Alabama, <mark>Rosa Parks rejected bus driver James F. Blake's order to relinquish her seat in the "colored section" to a white passenger</mark>, after the whites-only section was filled. Parks was not the first person to resist bus segregation, but the National Association for the Advancement of Colored People (NAACP) believed that she was the best candidate for seeing through a court challenge after her arrest for civil disobedience in violating Alabama segregation laws. Parks' prominence in the community and her willingness to become a controversial figure inspired the black community to boycott the Montgomery buses for over a year, the first major direct action campaign of the post-war civil rights movement. Her case became bogged down in the state courts, but the federal Montgomery bus lawsuit Browder v. Gayle succeeded in November 1956.
+           </div>
+           <div class="d-flex justify-content-center">
+           <blockquote class="blockquote shadow p-3 mb-5 bg-white rounded">
+              <p class="mb-0">“I would like to be known as a person who is concerned about freedom and equality and justice and prosperity for all people.”</p>
+                <footer class="blockquote-footer">Rosa Parks</footer>
+          </blockquote>
+        </div>
        </div>
      </div>
    </div>
+
  </body>
 
  </html>
