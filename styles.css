@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+.quote{
+  font-size: 5vw;
+  line-height: 8vw;
+  display: inline;
+  background-color: #f45b69;
+}
+
+.full-image-background{
+  height: 100vh;
+  background: url(images/header-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.font-playfair{
+  font-family: 'Playfair Display';
+}
+
+.small-text{
+  font-size: 2vw;
+}
+
+.container {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+}
+
+.text-shadow{
+  text-shadow: .5px .5px #000;
+}
+
+.text-lowercase{
+  text-transform: lowercase;
+}
