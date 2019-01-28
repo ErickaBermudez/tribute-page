@@ -89,7 +89,7 @@ html, body {
 .info-content::after{
   content: "";
   /*background: url(images/post-background.jpg);*/
-  background-color: #f5f5f5;
+  background-color: var(--background-text-color);
   top: 0;
   left: 0;
   bottom: 0;
@@ -127,9 +127,24 @@ html, body {
     margin: auto;
 }
 
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
 #img-div{
+  margin:-5px;
+  margin-top:20px;
   width:100%;
+}
+#img-caption{
+  margin:15px;
+}
 
+.btn-info{
+  background-color: var(--strong-color) !important;
+  border-color: var(--strong-color) !important;
 }
 
 
